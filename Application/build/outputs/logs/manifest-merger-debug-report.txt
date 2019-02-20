@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:18:1-46:12
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:18:1-46:12
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:18:1-46:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/d2be69eec1326e2057bed47b28123c0f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/81526c27d6f8b446d12a8636e179974d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/42bc02d989cf6df81e042a95eab13df2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/3a419746a73c43b435869822b98e6089/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d107b1a9fe021c205f7c16dd75ac2144/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/516608a6da0582a178d5b83bf17c860c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/77a7d13620a8ddabbfec47683b983cda/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ec514bbbc68c6841b60647058db37039/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/6454e101291f3f6fde51abe864e90f42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6566fcc88112002adcdb7421f1409571/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/62ef28b440a2c37760e74b571c3f73ef/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d8121ba5e28592d22866824c055c79de/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:18:1-46:12
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:18:1-46:12
+	package
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:19:5-45
+	android:versionName
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:21:5-30
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:18:11-69
+	android:versionCode
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:20:5-28
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:24:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:26:22-77
+uses-feature#android.hardware.camera
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:29:5-60
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:29:19-57
+uses-feature#android.hardware.camera.raw
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:30:5-64
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:30:19-61
+application
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:32:5-44:19
+	android:label
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:33:9-41
+	android:icon
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:34:9-45
+	android:allowBackup
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:32:18-44
+	android:theme
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:35:9-45
+activity#com.example.android.camera2raw.CameraActivity
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:37:9-43:20
+	android:label
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:38:19-51
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:37:19-79
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml:41:27-74
+uses-sdk
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/d2be69eec1326e2057bed47b28123c0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/d2be69eec1326e2057bed47b28123c0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/81526c27d6f8b446d12a8636e179974d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/81526c27d6f8b446d12a8636e179974d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/42bc02d989cf6df81e042a95eab13df2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/42bc02d989cf6df81e042a95eab13df2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/3a419746a73c43b435869822b98e6089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/3a419746a73c43b435869822b98e6089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d107b1a9fe021c205f7c16dd75ac2144/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d107b1a9fe021c205f7c16dd75ac2144/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/516608a6da0582a178d5b83bf17c860c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/516608a6da0582a178d5b83bf17c860c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/77a7d13620a8ddabbfec47683b983cda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/77a7d13620a8ddabbfec47683b983cda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ec514bbbc68c6841b60647058db37039/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ec514bbbc68c6841b60647058db37039/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/6454e101291f3f6fde51abe864e90f42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/6454e101291f3f6fde51abe864e90f42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6566fcc88112002adcdb7421f1409571/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6566fcc88112002adcdb7421f1409571/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/62ef28b440a2c37760e74b571c3f73ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/62ef28b440a2c37760e74b571c3f73ef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d8121ba5e28592d22866824c055c79de/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/nguyencobap/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d8121ba5e28592d22866824c055c79de/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+		ADDED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/nguyencobap/android-Camera2Raw/Application/src/main/AndroidManifest.xml
